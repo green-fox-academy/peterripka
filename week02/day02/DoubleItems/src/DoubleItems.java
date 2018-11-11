@@ -10,10 +10,7 @@ public class DoubleItems {
 
         for (int i = 0; i <numlist.length; i++) {
             numlist[i] *= 2;
-        }
-
-        for (int element : numlist) {
-            System.out.println(element);
+            System.out.println(numlist[i]);
         }
     }
 }
