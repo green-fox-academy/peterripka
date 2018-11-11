@@ -11,14 +11,12 @@ public class Sum {
         int enteredNr = scanner.nextInt();
         enteredNr++;
         System.out.println("The sum of the entered number and the numbers before it is: " + sum(enteredNr));
-
     }
-
     public static int sum(int givenNr) {
         int summa = 0;
-        for (int i = 0; i <givenNr ; i++) {
+        for (int i = 0; i < givenNr; i++) {
             summa += i;
         }
-    return summa;
+        return summa;
     }
 }
