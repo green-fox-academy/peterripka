@@ -7,7 +7,7 @@ public class MileToKmConverter {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Please, enter your distance in kms!");
-        double distance=input.nextDouble();
+        double distance = input.nextDouble();
         double mileskms = distance / 1.60934;
         System.out.println("Your distance in miles is " + mileskms);
     }
