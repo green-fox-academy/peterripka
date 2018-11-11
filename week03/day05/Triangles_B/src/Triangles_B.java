@@ -29,23 +29,6 @@ public class Triangles_B {
         }
     }
 
-
-//
-//            // drawing the lines with random colors for every line, to set everything to GREEN just replace the lines below to graphics.setColor(Color.GREEN);
-//            for (int i = 0; i < halfOfWidth; i += gap) {
-//                graphics.setColor(new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
-//                graphics.drawLine(halfOfWidth, i, halfOfWidth - i, halfOfHeight);
-//
-//                graphics.setColor(new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
-//                graphics.drawLine(halfOfWidth, i, halfOfWidth + i, halfOfHeight);
-//
-//                graphics.setColor(new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
-//                graphics.drawLine(halfOfWidth - i, halfOfHeight, halfOfWidth, WIDTH - i);
-//
-//                graphics.setColor(new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
-//                graphics.drawLine(halfOfWidth, HEIGHT - i, halfOfWidth + i, halfOfHeight);
-
-
     // Don't touch the code below
     static int WIDTH = 420;
     static int HEIGHT = 420;
