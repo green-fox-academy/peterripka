@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class PrintAll {
     public static void main(String[] args) {
 
@@ -6,9 +8,6 @@ public class PrintAll {
         // - Print all the elements of `numbers`
 
         int[] numbers = new int[]{4, 5, 6, 7};
-
-        for ( int element : numbers) {
-            System.out.println(element);
-        }
+        System.out.println(Arrays.toString(numbers));
     }
 }
