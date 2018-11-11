@@ -21,7 +21,6 @@ public class CountFromTo {
             for (int a = number1; a < number2; a++) {
                 System.out.println(a);
             }
-
         }
     }
 }

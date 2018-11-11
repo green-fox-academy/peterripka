@@ -18,10 +18,10 @@ public class AverageOfInput {
         System.out.println("Please, enter the third number!");
         int c = numbers.nextInt();
 
-        System.out.println("Please, enter the third number!");
+        System.out.println("Please, enter the fourth number!");
         int d = numbers.nextInt();
 
-        System.out.println("Please, enter the third number!");
+        System.out.println("Please, enter the fifth number!");
         int e = numbers.nextInt();
 
         int sum = (a + b + c + d + e);
