@@ -20,10 +20,7 @@ public class Checkerboard {
                     graphics.fillRect(2 * (j * x), i * y, 40, 40);
                 } else {
                     graphics.fillRect(40 + 2 * (j * x), i * y, 40, 40);
-
                 }
-
-
             }
         }
     }
