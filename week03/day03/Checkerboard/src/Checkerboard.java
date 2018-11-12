@@ -10,7 +10,7 @@ public class Checkerboard {
 
 
         //        graphics.setColor(Color.white);
-        graphics.fillRect(0, 0, 320, 320);
+    graphics.fillRect(0, 0, WIDTH, HEIGHT);
         int x = 40;
         int y = 40;
         for (int i = 0; i < 8; i++) {
