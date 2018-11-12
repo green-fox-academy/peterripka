@@ -11,12 +11,12 @@ public class FunctionToCenter {
         // and draws a line from that point to the center of the canvas.
         // Fill the canvas with lines from the edges, every 20 px, to the center.
 
-        for (int i = 0; i < 320; i += 20) {
+        for (int i = 0; i < WIDTH; i += 20) {
             graphics.setColor(new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
-            graphics.drawLine(i, 20, 160, 160);
-            graphics.drawLine(20, i, 160, 160);
-            graphics.drawLine(i, 300, 160, 160);
-            graphics.drawLine(300, i, 160, 160);
+        graphics.drawLine(i, 20, WIDTH/2, HEIGHT/2);
+            graphics.drawLine(20, i, WIDTH/2, HEIGHT/2);
+            graphics.drawLine(i, 300, WIDTH/2, HEIGHT/2);
+            graphics.drawLine(300, i, WIDTH/2, HEIGHT/2);
         }
     }
 
