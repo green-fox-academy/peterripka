@@ -1,0 +1,72 @@
+tr {
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    position: center;
+    margin: 30px;
+
+}
+
+form {
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 250px;
+    padding: 3%;
+    color: #555555;
+
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: "Titillium Web";
+    margin: 0px;
+    padding: 50px;
+
+    /*text-align: center;*/
+
+}
+
+p {
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+a {
+    font-size: 12px;
+    padding-left: 110px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 230px;
+    height: 30px;
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+
+}
+
+input:focus {
+    outline: none !important;
+    border-color: green;
+}
+
+textarea:focus {
+    outline: none !important;
+    border-color: green;
+
+}
+
+input[type="submit"] {
+    border: 0px;
+    border-radius: 10px;
+    background-color: #555555;
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin: 0;
+}
