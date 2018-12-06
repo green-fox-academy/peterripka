@@ -1,0 +1,46 @@
+th {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border-color: rgb(167, 167, 167);
+    border-bottom-style: solid;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+    line-height: 50px;
+    border-radius: 30px;
+    font-family: "Titillium Web";
+    border-color: rgb(167, 167, 167);
+
+}
+
+body {
+    background-color: rgb(62, 148, 236);
+    margin: 30px;
+    text-align: center;
+
+}
+td {
+    border: 1px solid grey;
+    width: 200px;
+
+}
+
+tr {
+    border-collapse: collapse;
+    border-bottom-style: groove;
+    border-width: 1px;
+
+
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(235, 235, 235);
+}
+
+tr:nth-child(2n) {
+    background-color: white;
+}
