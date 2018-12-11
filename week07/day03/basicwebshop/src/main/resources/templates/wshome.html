@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/main.css"/>
+</head>
+<a href="/webshop"><h1><span class="underline underline--blue">My Shop</span></h1></a>
+<header>
+    <div class="navbar">
+        <a href="/only-available"><button type="button" class="button1">ONLY AVAILABLE</button></a>
+
+        <a href="/cheapest-first"><button type="button" class="button2">CHEAPEST FIRST</button></a>
+
+        <a href="/contains-nike"><button type="button" class="button3">CONTAINS NIKE</button></a>
+
+        <a href="/average-stock"><button type="button" class="button4">AVERAGE STOCK</button></a>
+
+        <a href="/most-expensive"><button type="button" class="button5">MOST EXPENSIVE AVAILABLE</button></a>
+    </div>
+    <form action = "/search" method = "post">
+    <div class="search">
+        <p>Search for:</p>
+        <input type="text" id="search" name= "text" class="searchTerm" placeholder="...something like nike">
+        <button type="submit" class="searchButton">
+            <b class="fa fa-search">Search</b>
+        </button>
+    </div>
+    </form>
+</header>
+<br>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Quantity of stock</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <tr th:each="item : ${items}">
+        <td th:text="${item.getName()}"></td>
+        <td th:text="${item.getDescription()}"></td>
+        <td th:text="'$ '+${item.getPrice()}"></td>
+        <td th:text="${item.getStockNr()}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
